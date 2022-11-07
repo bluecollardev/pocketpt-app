@@ -1,5 +1,5 @@
 {
-  "name": "mediashare",
+  "name": "pocketpt",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -8,9 +8,9 @@
     "android:staging": "react-native run-android --variant=staging",
     "android:prod": "react-native run-android --variant=release",
     "android:logger": "adb logcat *:S ReactNative:V ReactNativeJS:V",
-    "ios:local": "react-native run-ios --scheme 'Mediashare Development'",
-    "ios:staging": "react-native run-ios --scheme 'Mediashare Pro'",
-    "ios:prod": "react-native run-ios --scheme 'Mediashare Pro'",
+    "ios:local": "react-native run-ios --scheme 'Development'",
+    "ios:staging": "react-native run-ios --scheme 'Production'",
+    "ios:prod": "react-native run-ios --scheme 'Production'",
     "test": "jest",
     "util:bump-version": "npx react-native-version --never-amend",
     "util:ios:clean-pods": "cd ios && bash ./purge-pod-artifacts.sh && cd ..",

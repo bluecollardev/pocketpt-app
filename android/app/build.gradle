@@ -133,11 +133,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "oi.bluecollardev.mediashare"
+        applicationId "oi.afehrpt.pocketpt"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 10
-        versionName "0.2.0"
+        versionCode 9
+        versionName "0.1.6"
     }
     splits {
         abi {
