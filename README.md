@@ -1,6 +1,6 @@
-# Mediashare Phone App
+# PocketPT Phone App
 
-## Running the Mediashare App and API
+## Running the PocketPT App and API
 
 **Prerequisites:**
 You will need to have Node.js, npm, yarn, and Docker installed locally

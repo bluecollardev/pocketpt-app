@@ -14,26 +14,26 @@
 		3E2E345C861A4FA4AD23B99F /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1948C863294458C96768E7D /* noop-file.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		D659B85060E2A1FA22E2FD2C /* libPods-Mediashare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD98594D3A22CE304A2ED61F /* libPods-Mediashare.a */; };
+		D659B85060E2A1FA22E2FD2C /* libPods-PocketPT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD98594D3A22CE304A2ED61F /* libPods-PocketPT.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Mediashare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mediashare.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mediashare/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Mediashare/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Mediashare/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mediashare/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mediashare/main.m; sourceTree = "<group>"; };
-		3DD539557AAD7753FFD1DB9F /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Mediashare/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		6C2E3173556A471DD304B334 /* Pods-Mediashare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediashare.debug.xcconfig"; path = "Target Support Files/Pods-Mediashare/Pods-Mediashare.debug.xcconfig"; sourceTree = "<group>"; };
-		7A4D352CD337FB3A3BF06240 /* Pods-Mediashare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediashare.release.xcconfig"; path = "Target Support Files/Pods-Mediashare/Pods-Mediashare.release.xcconfig"; sourceTree = "<group>"; };
-		9DECCAC136B97E99CB54B47C /* Pods-Mediashare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediashare.debug.xcconfig"; path = "Target Support Files/Pods-Mediashare/Pods-Mediashare.debug.xcconfig"; sourceTree = "<group>"; };
-		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Mediashare/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AD98594D3A22CE304A2ED61F /* libPods-Mediashare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mediashare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* PocketPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PocketPT/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PocketPT/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PocketPT/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PocketPT/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PocketPT/main.m; sourceTree = "<group>"; };
+		3DD539557AAD7753FFD1DB9F /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-PocketPT/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		6C2E3173556A471DD304B334 /* Pods-PocketPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPT.debug.xcconfig"; path = "Target Support Files/Pods-PocketPT/Pods-PocketPT.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4D352CD337FB3A3BF06240 /* Pods-PocketPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPT.release.xcconfig"; path = "Target Support Files/Pods-PocketPT/Pods-PocketPT.release.xcconfig"; sourceTree = "<group>"; };
+		9DECCAC136B97E99CB54B47C /* Pods-PocketPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPT.debug.xcconfig"; path = "Target Support Files/Pods-PocketPT/Pods-PocketPT.debug.xcconfig"; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = PocketPT/SplashScreen.storyboard; sourceTree = "<group>"; };
+		AD98594D3A22CE304A2ED61F /* libPods-PocketPT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocketPT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		D1948C863294458C96768E7D /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "Mediashare/noop-file.swift"; sourceTree = "<group>"; };
-		E627D1122BA34028EE616CBC /* Pods-Mediashare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediashare.release.xcconfig"; path = "Target Support Files/Pods-Mediashare/Pods-Mediashare.release.xcconfig"; sourceTree = "<group>"; };
+		D1948C863294458C96768E7D /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "PocketPT/noop-file.swift"; sourceTree = "<group>"; };
+		E627D1122BA34028EE616CBC /* Pods-PocketPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPT.release.xcconfig"; path = "Target Support Files/Pods-PocketPT/Pods-PocketPT.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -42,14 +42,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D659B85060E2A1FA22E2FD2C /* libPods-Mediashare.a in Frameworks */,
+				D659B85060E2A1FA22E2FD2C /* libPods-PocketPT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* Mediashare */ = {
+		13B07FAE1A68108700A75B9A /* PocketPT */ = {
 			isa = PBXGroup;
 			children = (
 				BB2F792B24A3F905000567C9 /* Supporting */,
@@ -62,14 +62,14 @@
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				D1948C863294458C96768E7D /* noop-file.swift */,
 			);
-			name = Mediashare;
+			name = PocketPT;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				AD98594D3A22CE304A2ED61F /* libPods-Mediashare.a */,
+				AD98594D3A22CE304A2ED61F /* libPods-PocketPT.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Mediashare */,
+				13B07FAE1A68108700A75B9A /* PocketPT */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -99,17 +99,17 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Mediashare.app */,
+				13B07F961A680F5B00A75B9A /* PocketPT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A64F81F7D421A2394A8F15B2 /* Mediashare */ = {
+		A64F81F7D421A2394A8F15B2 /* PocketPT */ = {
 			isa = PBXGroup;
 			children = (
 				3DD539557AAD7753FFD1DB9F /* ExpoModulesProvider.swift */,
 			);
-			name = Mediashare;
+			name = PocketPT;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -118,16 +118,16 @@
 				BB2F792C24A3F905000567C9 /* Expo.plist */,
 			);
 			name = Supporting;
-			path = Mediashare/Supporting;
+			path = PocketPT/Supporting;
 			sourceTree = "<group>";
 		};
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C2E3173556A471DD304B334 /* Pods-Mediashare.debug.xcconfig */,
-				7A4D352CD337FB3A3BF06240 /* Pods-Mediashare.release.xcconfig */,
-				9DECCAC136B97E99CB54B47C /* Pods-Mediashare.debug.xcconfig */,
-				E627D1122BA34028EE616CBC /* Pods-Mediashare.release.xcconfig */,
+				6C2E3173556A471DD304B334 /* Pods-PocketPT.debug.xcconfig */,
+				7A4D352CD337FB3A3BF06240 /* Pods-PocketPT.release.xcconfig */,
+				9DECCAC136B97E99CB54B47C /* Pods-PocketPT.debug.xcconfig */,
+				E627D1122BA34028EE616CBC /* Pods-PocketPT.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 		D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				A64F81F7D421A2394A8F15B2 /* Mediashare */,
+				A64F81F7D421A2394A8F15B2 /* PocketPT */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* Mediashare */ = {
+		13B07F861A680F5B00A75B9A /* PocketPT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mediashare" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PocketPT" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -158,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = Mediashare;
-			productName = Mediashare;
-			productReference = 13B07F961A680F5B00A75B9A /* Mediashare.app */;
+			name = PocketPT;
+			productName = PocketPT;
+			productReference = 13B07F961A680F5B00A75B9A /* PocketPT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mediashare" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PocketPT" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Mediashare */,
+				13B07F861A680F5B00A75B9A /* PocketPT */,
 			);
 		};
 /* End PBXProject section */
@@ -237,7 +237,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mediashare-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PocketPT-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -250,7 +250,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mediashare/Pods-Mediashare-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PocketPT/Pods-PocketPT-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
@@ -299,7 +299,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mediashare/Pods-Mediashare-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketPT/Pods-PocketPT-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -321,18 +321,18 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DECCAC136B97E99CB54B47C /* Pods-Mediashare.debug.xcconfig */;
+			baseConfigurationReference = 9DECCAC136B97E99CB54B47C /* Pods-PocketPT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Mediashare/mediashare.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PocketPT/PocketPTRelease.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = Mediashare/Info.plist;
+				INFOPLIST_FILE = PocketPT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -341,8 +341,8 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = oi.bluecollardev.mediashare;
-				PRODUCT_NAME = Mediashare;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.afehrpt.pocketpt;
+				PRODUCT_NAME = PocketPT;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -352,13 +352,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E627D1122BA34028EE616CBC /* Pods-Mediashare.release.xcconfig */;
+			baseConfigurationReference = E627D1122BA34028EE616CBC /* Pods-PocketPT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Mediashare/mediashare.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PocketPT/PocketPTRelease.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Mediashare/Info.plist;
+				INFOPLIST_FILE = PocketPT/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -367,8 +367,8 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = oi.bluecollardev.mediashare;
-				PRODUCT_NAME = Mediashare;
+				PRODUCT_BUNDLE_IDENTIFIER = oi.afehrpt.pocketpt;
+				PRODUCT_NAME = PocketPT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -487,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mediashare" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PocketPT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mediashare" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PocketPT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

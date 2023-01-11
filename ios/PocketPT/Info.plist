@@ -5,7 +5,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>$(DEVELOPMENT_LANGUAGE)</string>
     <key>CFBundleDisplayName</key>
-    <string>Mediashare</string>
+    <string>PocketPT</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
@@ -25,8 +25,8 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>Mediashare</string>
-          <string>oi.bluecollardev.mediashare</string>
+          <string>PocketPT</string>
+          <string>oi.afehrpt.pocketpt</string>
         </array>
       </dict>
       <dict>

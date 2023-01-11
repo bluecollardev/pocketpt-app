@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "mediashare",
-    "slug": "mediashare",
-    "scheme": "mediashare",
+    "name": "pocketpt",
+    "slug": "pocketpt",
+    "scheme": "pocketpt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,21 +19,21 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "oi.bluecollardev.mediashare"
+      "bundleIdentifier": "oi.afehrpt.pocketpt"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.mediashare"
+      "package": "com.pocketpt"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "e6e00098-8f3b-4e2f-865d-06d40051e599"
+        "projectId": "c722f535-63f7-4c73-91de-daa596b9e694"
       }
     }
   }
