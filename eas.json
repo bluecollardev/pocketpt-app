@@ -9,7 +9,8 @@
         "gradleCommand": ":app:assembleDebug"
       },
       "ios": {
-        "buildConfiguration": "pocketpt-development"
+        "scheme": "pocketpt-development",
+        "buildConfiguration": "Debug"
       }
     },
     "preview": {
@@ -17,7 +18,8 @@
     },
     "production": {
       "ios": {
-        "buildConfiguration": "pocketpt-development"
+        "scheme": "pocketpt-production",
+        "buildConfiguration": "Release"
       }
     }
   },
