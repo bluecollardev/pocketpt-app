@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/lucas/Workspaces/armos_mediashare-app/ios/PocketPT.xcodeproj">
-   </FileRef>
+     location = "group:PocketPT.xcodeproj">
+  </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PocketPT.xcodeproj">
    </FileRef>
 </Workspace>
