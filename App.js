@@ -1,7 +1,19 @@
 "use strict";
 exports.__esModule = true;
-var main_1 = require("mediashare/main");
+var expo_status_bar_1 = require("expo-status-bar");
+var react_native_1 = require("react-native");
 function App() {
-    return main_1["default"]();
+    return (<react_native_1.View style={styles.container}>
+      <react_native_1.Text>Open up App.tsx to start working on your app!</react_native_1.Text>
+      <expo_status_bar_1.StatusBar style="auto"/>
+    </react_native_1.View>);
 }
 exports["default"] = App;
+var styles = react_native_1.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});

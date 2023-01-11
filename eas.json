@@ -4,24 +4,13 @@
   },
   "build": {
     "development": {
-      "distribution": "internal",
-      "android": {
-        "gradleCommand": ":app:assembleDebug"
-      },
-      "ios": {
-        "scheme": "pocketpt-development",
-        "buildConfiguration": "Debug"
-      }
+      "developmentClient": true,
+      "distribution": "internal"
     },
     "preview": {
       "distribution": "internal"
     },
-    "production": {
-      "ios": {
-        "scheme": "pocketpt-production",
-        "buildConfiguration": "Release"
-      }
-    }
+    "production": {}
   },
   "submit": {
     "production": {}
