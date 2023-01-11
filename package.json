@@ -59,7 +59,6 @@
     "expo-splash-screen": "~0.17.5",
     "expo-standard-web-crypto": "^1.4.1",
     "expo-status-bar": "~1.4.2",
-    "expo-updates": "~0.15.6",
     "expo-video-thumbnails": "^7.0.0",
     "patch-package": "^6.5.0",
     "react": "18.1.0",
