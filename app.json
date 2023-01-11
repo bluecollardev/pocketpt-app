@@ -1,12 +1,40 @@
 {
-  "name": "PocketPT",
-  "displayName": "Pocket Physical Therapist",
-  "usesIcloudStorage": true,
-  "version": "0.0.1",
-  "ios": {
-    "infoPlist": {
-      "NSPhotoLibraryUsageDescription": "Pocket Physical Therapist is an application designed to share videos and other content that someone creates with other application users. To get data to share it needs to be uploaded from the Photo Library.",
-      "NSPhotoLibraryAddUsageDescription": "Pocket Physical Therapist is an application designed to share videos and other content that someone creates with other application users. To get data to share it needs to be uploaded from the Photo Library."
+  "expo": {
+    "name": "mediashare",
+    "slug": "mediashare",
+    "scheme": "mediashare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "oi.bluecollardev.mediashare"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mediashare"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6e00098-8f3b-4e2f-865d-06d40051e599"
+      }
     }
   }
 }

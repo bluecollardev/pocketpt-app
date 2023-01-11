@@ -1,3 +1,7 @@
+// File created by expo-dev-client/app.plugin.js
+
 module.exports = {
-  assets: ['./src/assets/fonts'],
+  dependencies: {
+    ...require('expo-dev-client/dependencies'),
+  },
 };
