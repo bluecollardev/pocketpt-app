@@ -20,7 +20,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "oi.afehrpt.pocketpt"
+      "bundleIdentifier": "oi.afehrpt.pocketpt",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app does not need location data.",
+        "NSPhotoLibraryAddUsageDescription": "MediaShare is an application designed to share videos and other content that someone creates with other application users. To get data to share it needs to be uploaded from the Photo Library.",
+        "NSPhotoLibraryUsageDescription": "MediaShare is an application designed to share videos and other content that someone creates with other application users. To get data to share it needs to be uploaded from the Photo Library."
+      }
     },
     "android": {
       "adaptiveIcon": {

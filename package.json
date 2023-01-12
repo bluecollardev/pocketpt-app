@@ -9,8 +9,12 @@
     "android:device": "expo start --android --tunnel --clear",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build:android": "EAS_LOCAL_BUILD_SKIP_CLEANUP=1 eas build -p android --local",
-    "build:ios": "EAS_LOCAL_BUILD_SKIP_CLEANUP=1 eas build -p ios --local"
+    "build:android:local": "EAS_LOCAL_BUILD_SKIP_CLEANUP=1 eas build -p android --local",
+    "build:ios:local": "EAS_LOCAL_BUILD_SKIP_CLEANUP=1 eas build -p ios --local",
+    "build:android": "eas build -p android",
+    "build:ios": "eas build -p ios",
+    "submit:dev": "eas submit -p ios --latest --profile development",
+    "submit:prod": "eas submit -p ios --latest --profile production"
   },
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
@@ -79,6 +83,7 @@
     "@typescript-eslint/eslint-plugin": "2.27.0",
     "@typescript-eslint/parser": "2.27.0",
     "babel-plugin-module-resolver": "^4.1.0",
+    "eas-cli": "^3.3.1",
     "metro-react-native-babel-preset": "^0.73.6",
     "typescript": "^4.6.3"
   },
