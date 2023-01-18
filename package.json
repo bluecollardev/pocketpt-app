@@ -3,11 +3,12 @@
   "version": "0.2.0",
   "scripts": {
     "preinstall": "bash eas-build-pre-install.sh",
-    "start": "expo start --dev-client",
     "android": "expo run:android",
     "android:device": "expo start --android --tunnel --clear",
-    "ios": "expo run:ios",
-    "expo:ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "ios:dev": "API_SERVER=0 expo start --ios",
+    "ios:staging": "API_SERVER=1 expo start --ios ",
+    "ios:prod": "API_SERVER=2 expo start --ios ",
     "web": "expo start --web",
     "build:android:local": "EAS_LOCAL_BUILD_SKIP_CLEANUP=1 eas build -p android --local",
     "build:ios:local": "EAS_LOCAL_BUILD_SKIP_CLEANUP=1 eas build -p ios --local",
@@ -29,7 +30,8 @@
     "expo-invite-ios:test": "npx uri-scheme open exp://127.0.0.1:19000/--/accept-invitation/637147fefb4dfea595826d8d --ios",
     "expo-invite-android:bcdevlucas": "npx uri-scheme open exp://127.0.0.1:19000/--/accept-invitation/6190693aa0c0e20021fa2324 --android",
     "expo-invite-android:armos51": "npx uri-scheme open exp://127.0.0.1:19000/--/accept-invitation/61907743a0c0e20021fa232f --android",
-    "expo-invite-android:test": "npx uri-scheme open exp://127.0.0.1:19000/--/accept-invitation/637147fefb4dfea595826d8d --android"
+    "expo-invite-android:test": "npx uri-scheme open exp://127.0.0.1:19000/--/accept-invitation/637147fefb4dfea595826d8d --android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
@@ -60,6 +62,7 @@
     "expo-splash-screen": "^0.17.5",
     "expo-standard-web-crypto": "^1.4.1",
     "expo-status-bar": "~1.4.2",
+    "expo-updates": "~0.15.6",
     "expo-video-thumbnails": "^7.0.0",
     "prop-types": "^15.8.1",
     "react": "18.1.0",

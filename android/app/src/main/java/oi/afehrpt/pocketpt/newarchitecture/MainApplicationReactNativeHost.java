@@ -1,4 +1,4 @@
-package com.pocketpt.newarchitecture;
+package oi.afehrpt.pocketpt.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.pocketpt.BuildConfig;
-import com.pocketpt.newarchitecture.components.MainComponentsRegistry;
-import com.pocketpt.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import oi.afehrpt.pocketpt.BuildConfig;
+import oi.afehrpt.pocketpt.newarchitecture.components.MainComponentsRegistry;
+import oi.afehrpt.pocketpt.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

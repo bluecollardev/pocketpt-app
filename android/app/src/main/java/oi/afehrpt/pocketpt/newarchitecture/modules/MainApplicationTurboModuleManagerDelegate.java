@@ -1,4 +1,4 @@
-package com.pocketpt.newarchitecture.modules;
+package oi.afehrpt.pocketpt.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

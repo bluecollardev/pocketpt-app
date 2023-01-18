@@ -1,4 +1,4 @@
-package com.pocketpt;
+package oi.afehrpt.pocketpt;
 
 import android.os.Build;
 import android.os.Bundle;
