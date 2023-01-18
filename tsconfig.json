@@ -8,5 +8,6 @@
     }
   },
   "exclude": ["./node_modules", "babel.config.js", "metro.config.js", "jest.config.js", "**/*.test.ts", "**/*.test.tsx"],
-  "extends": "expo/tsconfig.base"
+  "extends": "expo/tsconfig.base",
+  "include" : ["custom.d.ts"]
 }
