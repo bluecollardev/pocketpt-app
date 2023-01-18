@@ -31,13 +31,13 @@ if ! [ -d "$ROOT_DIR/.git/modules" ]; then
   fi
   echo "......Create submodule"
   git submodule add https://github.com/bluecollardev/mediashare-source.git $ROOT_DIR/app \
-    && cd $ROOT_DIR/app && git checkout feature/managed-expo-build-changes \
+    && cd $ROOT_DIR/app && git checkout main \
     && cd $ROOT_DIR || exit
 
 else
   echo "...Re-initialize submodules"
   git submodule update --init --recursive \
-   && cd $ROOT_DIR/app && git checkout feature/managed-expo-build-changes \
+   && cd $ROOT_DIR/app && git checkout main \
    && cd $ROOT_DIR || exit
 fi
 echo "RUN preinstall HOOK COMPLETE"
