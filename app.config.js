@@ -10,7 +10,7 @@ module.exports = {
     splash: {
       image: "./assets/splash.png",
       resizeMode: "contain",
-      backgroundColor: "#212121"
+      backgroundColor: "#1e1e1e"
     },
     updates: {
       fallbackToCacheTimeout: 0
