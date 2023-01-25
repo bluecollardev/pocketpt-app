@@ -11,11 +11,12 @@
       },
       "channel": "default"
     },
-    "preview": {
+    "staging": {
       "distribution": "internal",
       "channel": "staging"
     },
     "production": {
+      "distribution": "store",
       "channel": "production"
     }
   },

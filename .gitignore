@@ -9,6 +9,7 @@ App.js
 *.key
 *.mobileprovision
 *.orig.*
+credentials.json
 
 # Android Build
 *.aab
