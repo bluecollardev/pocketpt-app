@@ -4,7 +4,7 @@ module.exports = {
     slug: "pocketpt",
     scheme: "pocketpt",
     version: "0.2.0",
-    orientation: "portrait",
+    // orientation: "portrait",
     icon: "./assets/icon.png",
     userInterfaceStyle: "dark",
     splash: {
