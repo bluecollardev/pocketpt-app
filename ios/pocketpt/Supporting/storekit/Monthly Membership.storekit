@@ -1,0 +1,57 @@
+{
+  "identifier" : "FE34CCDB",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "A8F7C22C",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "sdf dfgfb",
+          "displayName" : "Montntly",
+          "locale" : "en_GB"
+        }
+      ],
+      "productID" : "com.ptapp.id",
+      "referenceName" : "Monthly Plan",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "34F64B5C",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "PTapp",
+          "displayName" : "PTapp",
+          "locale" : "en_GB"
+        }
+      ],
+      "productID" : "com.ptapp.id",
+      "referenceName" : "Gold plan",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

@@ -10,6 +10,7 @@ install! 'cocoapods',
   :deterministic_uuids => false
 
 target 'pocketpt' do
+  
   use_expo_modules!
   config = use_native_modules!
 
@@ -29,7 +30,7 @@ target 'pocketpt' do
     # Note that if you have use_frameworks! enabled, Flipper will not work
     # :flipper_configuration => !ENV['CI'] ? FlipperConfiguration.enabled : FlipperConfiguration.disabled,
   )
-
+  pod 'RNIap', :path => '../node_modules/react-native-iap'
   post_install do |installer|
     react_native_post_install(
       installer,
@@ -51,14 +52,14 @@ target 'pocketpt' do
     end
   end
   
-  post_install do |installer|
-     installer.pods_project.targets.each do |target|
-          target.build_configurations.each do |config|
-                 config.build_settings['SWIFT_VERSION'] = '5.0'
-                 config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.4'
-         end
-     end
-  end
+#  post_install do |installer|
+#     installer.pods_project.targets.each do |target|
+#          target.build_configurations.each do |config|
+#                 config.build_settings['SWIFT_VERSION'] = '5.0'
+#                 config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.4'
+#         end
+#     end
+#  end
   post_integrate do |installer|
     begin
       expo_patch_react_imports!(installer)

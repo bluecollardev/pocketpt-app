@@ -63,10 +63,7 @@
 	<string>This app accesses your photos and videos to let you share them with your friends.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app accesses your photos and videos to let you share them with your friends.</string>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>audio</string>
-	</array>
+
 	<key>UILaunchStoryboardName</key>
 	<string>SplashScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

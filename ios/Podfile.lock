@@ -135,8 +135,8 @@ PODS:
     - ReactCommon/turbomodule/core (= 0.70.5)
   - fmt (6.2.1)
   - glog (0.3.5)
-  - PurchasesHybridCommon (4.8.0):
-    - RevenueCat (= 4.16.0)
+  - PurchasesHybridCommon (4.15.0):
+    - RevenueCat (= 4.18.0)
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -422,7 +422,7 @@ PODS:
     - React-jsi (= 0.70.5)
     - React-logger (= 0.70.5)
     - React-perflogger (= 0.70.5)
-  - RevenueCat (4.16.0)
+  - RevenueCat (4.18.0)
   - RNAWSCognito (5.2.14):
     - React-Core
   - RNCAsyncStorage (1.17.11):
@@ -433,8 +433,10 @@ PODS:
     - React-Core
   - RNGestureHandler (2.8.0):
     - React-Core
-  - RNPurchases (5.6.0):
-    - PurchasesHybridCommon (= 4.8.0)
+  - RNIap (12.10.5):
+    - React-Core
+  - RNPurchases (5.14.0):
+    - PurchasesHybridCommon (= 4.15.0)
     - React-Core
   - RNScreens (3.18.2):
     - React-Core
@@ -510,6 +512,7 @@ DEPENDENCIES:
   - "RNCPicker (from `../node_modules/@react-native-picker/picker`)"
   - RNFS (from `../node_modules/react-native-fs`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNIap (from `../node_modules/react-native-iap`)
   - RNPurchases (from `../node_modules/react-native-purchases`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
@@ -653,6 +656,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-fs"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNIap:
+    :path: "../node_modules/react-native-iap"
   RNPurchases:
     :path: "../node_modules/react-native-purchases"
   RNScreens:
@@ -696,7 +701,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: fe8b5f1429cfe83a8d72dc8ed61dc7704cac8745
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
-  PurchasesHybridCommon: bd1e1d3476afd3f95332b0ae160e4ce1bd1efd99
+  PurchasesHybridCommon: da45a710d9f4f7819fd769b8efc3abbb5e4e8cab
   RCT-Folly: 0080d0a6ebf2577475bda044aa59e2ca1f909cda
   RCTRequired: 21229f84411088e5d8538f21212de49e46cc83e2
   RCTTypeSafety: 62eed57a32924b09edaaf170a548d1fc96223086
@@ -726,17 +731,18 @@ SPEC CHECKSUMS:
   React-RCTVibration: 8e5c8c5d17af641f306d7380d8d0fe9b3c142c48
   React-runtimeexecutor: 7401c4a40f8728fd89df4a56104541b760876117
   ReactCommon: c9246996e73bf75a2c6c3ff15f1e16707cdc2da9
-  RevenueCat: c12e14f5e3dc5732db6d5095ac4ce6ff08d7eeb0
+  RevenueCat: d8f5b1477c4eb78b658e86a97fd64ed4d6b3fbfd
   RNAWSCognito: bbfdc784e906e3837d4d996c17ffed19356afc19
   RNCAsyncStorage: 8616bd5a58af409453ea4e1b246521bb76578d60
   RNCPicker: 0bf8ef8f7800524f32d2bb2a8bcadd53eda0ecd1
   RNFS: 4ac0f0ea233904cb798630b3c077808c06931688
   RNGestureHandler: 62232ba8f562f7dea5ba1b3383494eb5bf97a4d3
-  RNPurchases: bf74bd8e79ed681a84f05d2c7324964d0859b913
+  RNIap: c397f49db45af3b10dca64b2325f21bb8078ad21
+  RNPurchases: fd161618736051325818c6a232338938f3b2cf2f
   RNScreens: 34cc502acf1b916c582c60003dc3089fa01dc66d
   RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   Yoga: eca980a5771bf114c41a754098cd85e6e0d90ed7
 
-PODFILE CHECKSUM: cfddcd94ef5786b3b1e0f464c2c884914496354c
+PODFILE CHECKSUM: 7721a49d93a2d48d9fcdf645b4da44d9e1a1250a
 
 COCOAPODS: 1.11.3
