@@ -59,8 +59,8 @@ module.exports = {
       eas: {
         projectId: "f7fcfd84-8bcf-4669-8527-5dd95972716d"
       },
-      apiServer: process.env.API_SERVER || 1, // 0 Dev, 1 Staging, 2 Prod
-      awsUrl: process.env.AWS_URL || 'https://mediashare0079445c24114369af875159b71aee1c04439-dev.s3.us-west-2.amazonaws.com/public/',
+      apiServer: process.env.EXPO_PUBLIC_API_SERVER || 0, // 0 Dev, 1 Staging, 2 Prod
+      awsUrl: process.env.EXPO_PUBLIC_AWS_URL || 'https://mediashare0079445c24114369af875159b71aee1c04439-dev.s3.us-west-2.amazonaws.com/public/',
     },
     "plugins": [
       [
